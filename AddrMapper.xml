@@ -3,16 +3,14 @@
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="AddrMapper">
-	<!-- AddrMapper 네임 스페이스는 SQL문 집합을 고유하게 식별하고, 이를 Java 인터페이스에 매핑하는 데 사용됨-->
 
 	<!-- 해당 sql을 메서드와 연결해서 처리. id는 메서드명, resultType 리턴, parameterType 매개변수 -->
-    <select id="getAddresses" resultType="Addr"> <!-- 결과가 클래스의 인스턴스에 매핑된다는 의미-->
+    <select id="getAddresses" resultType="Addr">
       SELECT *
       FROM t_address
     </select>
     
     <insert id="insertAddress" parameterType="Addr">
-		<!-- parameterType이 SQL 쿼리에 전달될 매개변수의 유형, 즉 "Addr"(클래스의 인스턴스 'Addr')을 지정한다. -->
     	INSERT INTO t_address
     	SET `name` = #{name},
     	address = #{address},
