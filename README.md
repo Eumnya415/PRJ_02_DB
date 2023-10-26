@@ -1,7 +1,7 @@
-# Personal_project (2) : DB + MySQL 연동
+# Personal_project (2) : DB + MyBatis 연동
 
-23년 10월 개인 프로젝트 과제 - `DB+MySQL` 연동
-풀스택 3기 교육과정에서의 개인 프로젝트 과제물 업로드 (`23년 10월`)
+23년 10월 개인 프로젝트 과제 - `DB+MyBatis` 연동<br>
+풀스택 3기 교육과정에서의 개인 프로젝트 과제물 업로드 (`23년 10월`)<br>
 주소록 저장 프로그램 제작 (`CRUD`)
 <BR><BR>
 
