@@ -1,6 +1,6 @@
 # Personal_project (2) : DB + MyBatis 연동
 
-23년 10월 개인 프로젝트 과제 - `DB+MyBatis` 연동(`23년 10월`)<br>
+23년 10월 개인 프로젝트 과제 - `DB+MyBatis` 연동<br>
 주소록 저장 프로그램 제작 (`CRUD`)<br>
 `Clone Coding`
 <BR><BR>
