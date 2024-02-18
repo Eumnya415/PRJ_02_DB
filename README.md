@@ -28,7 +28,6 @@ JAVA / MyBatis / MariaDB - Address book CRUD<br>
 * `MyBatis`는 `DB`에서 반환된 결과를 `Java` 객체로 매핑하고, `Java` 코드로 다루기 쉬운 형태로 반환한다.
 * `Java` 코드에서는 데이터 모델과 비즈니스 로직을 사용하여 애플리케이션의 주요 기능을 구현한다.
 * 이런 식으로 `Java`, `MariaDB`, 그리고 `MyBatis`가 함께 작동하여 주소록 애플리케이션을 완성한다.
-* 
 <br>
 
 ## 🔎 개발 환경 
