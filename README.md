@@ -4,19 +4,23 @@ JAVA / MyBatis / MariaDB - Address book CRUD<br>
 주소록 저장 프로그램 제작 (`CRUD`)<br>
 <br>
 
-## :mag_right: 목차
-1. [프로그램 구현 방식](#프로그램-구현-방식)
-2. [사용한 기술 스택](#사용한-기술-스택)
-     - [MySQL](#MySQL)
-     - [Java](#Java)
-     - [MyBatis](#MyBatis)
-3. [작성 시 신경 쓴 부분](#작성-시-신경-쓴-부분)
-4. [구현 화면](#구현-화면)
-5. [회고](#회고)
+## :mag_right: INDEX
+1. [프로젝트 소개](#-mag-right-프로젝트-소개)
+2. [프로그램 구현 방식](#-mag-right-프로그램-구현-방식)
+3. [개발 환경](#-mag-right-개발-환경)
+     - [MySQL](#-pencil-MySQL)
+     - [Java](#-pencil-Java)
+     - [MyBatis](#-pencil-MyBatis)
+4. [작성 시 신경 쓴 부분](#-mag-right-작성-시-신경-쓴-부분)
+5. [구현 화면](#-mag-right-구현-화면)
+6. [회고](#-mag-right-회고)
 
 <br>
 <br>
 
+## :mag_right: 프로젝트 소개
+
+<br>
 
 ## :mag_right: 프로그램 구현 방식
 * `Java` 클래스 (주로 `DAO`)에서 `MyBatis`와 상호 작용하고, 필요한 `SQL` 쿼리를 정의하거나 호출한다.
@@ -24,9 +28,10 @@ JAVA / MyBatis / MariaDB - Address book CRUD<br>
 * `MyBatis`는 `DB`에서 반환된 결과를 `Java` 객체로 매핑하고, `Java` 코드로 다루기 쉬운 형태로 반환한다.
 * `Java` 코드에서는 데이터 모델과 비즈니스 로직을 사용하여 애플리케이션의 주요 기능을 구현한다.
 * 이런 식으로 `Java`, `MySQL`, 그리고 `MyBatis`가 함께 작동하여 주소록 애플리케이션을 완성한다.
+* 
 <br>
 
-## :mag_right: 사용한 기술 스택 
+## :mag_right: 개발 환경 
 
 ### :pencil: MySQL
 `MySQL`은 관계형 데이터베이스 관리 시스템(`RDBMS`)으로, 데이터 저장 및 관리 역할을 수행한다. <br>주소록 프로그램에서의 주요 역할은 다음과 같다.
@@ -65,7 +70,6 @@ JAVA / MyBatis / MariaDB - Address book CRUD<br>
 ## :mag_right: 회고
 * 모두 아직 익숙치 않지만, `MyBatis`는 처음이라 더 힘들었다. 툴에 더 익숙해져야 겠다고 생각했다. 특히 `Java`만 다루는 것이 아니라, 각 스택에 맞게끔 운용을 해야 했다. 스택에 대한 개념을 알고, 각 스택이 어떻게 작동하는지 구조도를 파악해야 겠다.
 <br>
-
 
 
 
