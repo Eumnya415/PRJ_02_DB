@@ -1,7 +1,7 @@
 # :blue_book: JAVA / MyBatis / MariaDB - Address book CRUD
 
-JAVA / MyBatis / MariaDB - Address book CRUD<br>
-주소록 저장 프로그램<br>
+* JAVA / MyBatis / MariaDB - Address book CRUD
+* 주소록 저장 프로그램
 <br>
 
 ## 🔎 INDEX
@@ -13,7 +13,8 @@ JAVA / MyBatis / MariaDB - Address book CRUD<br>
      - [MyBatis](#-MyBatis)
 4. [작성 시 신경 쓴 부분](#-작성-시-신경-쓴-부분)
 5. [구현 화면](#-구현-화면)
-6. [회고](#-회고)
+6. [파일 구조](#-파일-구조)
+7. [회고](#-회고)
 
 <br>
 <br>
@@ -66,6 +67,32 @@ JAVA / MyBatis / MariaDB - Address book CRUD<br>
 * Create : 주소록 추가하기<br>
 
 ![image](https://github.com/Eumnya415/PRJ_02_DB/assets/145963611/98ae5f13-ba4a-4249-99aa-7e1aadde2269)
+<br>
+
+## 🔎 파일 구조
+<details><summary>파일 구조 보기</summary>
+📦PRJ_02_DB-main <br>
+ ┣ 📂sql <br>
+ ┃ ┗ 📜t_address.sql <br>
+ ┣ 📂src <br>
+ ┃ ┣ 📜Addr.java <br>
+ ┃ ┣ 📜AddrApp.java <br>
+ ┃ ┣ 📜AddrMapper.java <br>
+ ┃ ┣ 📜AddrMapper.xml <br>
+ ┃ ┣ 📜DBUtil.java <br>
+ ┃ ┣ 📜mybatis-config.xml <br>
+ ┃ ┗ 📜WebView.java <br>
+ ┣ 📜Addr.class <br>
+ ┣ 📜AddrApp.class <br>
+ ┣ 📜AddrMapper.class <br>
+ ┣ 📜DBUtil.class <br>
+ ┣ 📜Main.class <br>
+ ┣ 📜mariadb-java-client-3.2.0.jar <br>
+ ┣ 📜mybatis-3.5.11.jar <br>
+ ┣ 📜README.md <br>
+ ┗ 📜WebView.class <br>
+</details>
+<br>
 
 ## 🔎 회고
 * 모두 아직 익숙치 않지만, `MyBatis`는 처음이라 더 힘들었다. 툴에 더 익숙해져야 겠다고 생각했다. 특히 `Java`만 다루는 것이 아니라, 각 스택에 맞게끔 운용을 해야 했다. 스택에 대한 개념을 알고, 각 스택이 어떻게 작동하는지 구조도를 파악해야 겠다.
