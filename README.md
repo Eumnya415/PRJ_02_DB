@@ -1,20 +1,18 @@
-# :blue_book: Personal_project (2) : DB + MyBatis 연동
+# :blue_book: JAVA / MyBatis / MariaDB - Address book CRUD
 
-23년 10월 개인 프로젝트 과제 - `DB+MyBatis` 연동<br>
+JAVA / MyBatis / MariaDB - Address book CRUD<br>
 주소록 저장 프로그램 제작 (`CRUD`)<br>
-`Clone Coding`
-<BR><BR>
+<br>
 
 ## :mag_right: 목차
-1. [:mag_right: 프로그램 구현 방식](#-mag-right------------)
-2. [:mag_right: 사용한 기술 스택](#-mag-right-----------)
-    + [:pencil: MySQL](#-pencil--mysql)
-    + [:pencil: Java](#-pencil--java)
-    + [:pencil: MyBatis](#-pencil--mybatis)
-3. [:mag_right: 작성 시 신경 쓴 부분](#-mag-right--------------)
-4. [:mag_right: 구현 화면](#-mag-right-------)
-5. [:mag_right: 회고](#-mag-right----)
-6. [:mag_right: 참고 자료](#-mag-right-------)
+1. [프로그램 구현 방식](#프로그램-구현-방식)
+2. [사용한 기술 스택](#사용한-기술-스택)
+     - [MySQL](#MySQL)
+     - [Java](#Java)
+     - [MyBatis](#MyBatis)
+3. [작성 시 신경 쓴 부분](#작성-시-신경-쓴-부분)
+4. [구현 화면](#구현-화면)
+5. [회고](#회고)
 
 <br>
 <br>
@@ -68,23 +66,7 @@
 * 모두 아직 익숙치 않지만, `MyBatis`는 처음이라 더 힘들었다. 툴에 더 익숙해져야 겠다고 생각했다. 특히 `Java`만 다루는 것이 아니라, 각 스택에 맞게끔 운용을 해야 했다. 스택에 대한 개념을 알고, 각 스택이 어떻게 작동하는지 구조도를 파악해야 겠다.
 <br>
 
-## :mag_right: 참고 자료
-"DB를 이용한 간단한 주소록 만들기" (카페 자료 참고)
 
 
-
-<!-- 
-
-1. [프로그램 구현 방식](#프로그램-구현-방식)
-2. [사용한 기술 스택](#사용한-기술-스택)
-     - [MySQL](#MySQL)
-     - [Java](#Java)
-     - [MyBatis](#MyBatis)
-3. [작성 시 신경 쓴 부분](#작성-시-신경-쓴-부분)
-4. [구현 화면](#구현-화면)
-5. [회고](#회고)
-6. [참고 자료](#참고-자료)
-
--->
 
 
