@@ -6,17 +6,19 @@
 <BR><BR>
 
 ## :mag_right: 목차
-1. [프로그램 구현 방식](#프로그램-구현-방식)
-2. [사용한 기술 스택](#사용한-기술-스택)
-     - [MySQL](#MySQL)
-     - [Java](#Java)
-     - [MyBatis](#MyBatis)
-3. [작성 시 신경 쓴 부분](#작성-시-신경-쓴-부분)
-4. [구현 화면](#구현-화면)
-5. [회고](#회고)
-6. [참고 자료](#참고-자료)
-   
+1. [:mag_right: 프로그램 구현 방식](#-mag-right------------)
+2. [:mag_right: 사용한 기술 스택](#-mag-right-----------)
+    + [:pencil: MySQL](#-pencil--mysql)
+    + [:pencil: Java](#-pencil--java)
+    + [:pencil: MyBatis](#-pencil--mybatis)
+3. [:mag_right: 작성 시 신경 쓴 부분](#-mag-right--------------)
+4. [:mag_right: 구현 화면](#-mag-right-------)
+5. [:mag_right: 회고](#-mag-right----)
+6. [:mag_right: 참고 자료](#-mag-right-------)
+
 <br>
+<br>
+
 
 ## :mag_right: 프로그램 구현 방식
 * `Java` 클래스 (주로 `DAO`)에서 `MyBatis`와 상호 작용하고, 필요한 `SQL` 쿼리를 정의하거나 호출한다.
@@ -69,5 +71,20 @@
 ## :mag_right: 참고 자료
 "DB를 이용한 간단한 주소록 만들기" (카페 자료 참고)
 
+
+
+<!-- 
+
+1. [프로그램 구현 방식](#프로그램-구현-방식)
+2. [사용한 기술 스택](#사용한-기술-스택)
+     - [MySQL](#MySQL)
+     - [Java](#Java)
+     - [MyBatis](#MyBatis)
+3. [작성 시 신경 쓴 부분](#작성-시-신경-쓴-부분)
+4. [구현 화면](#구현-화면)
+5. [회고](#회고)
+6. [참고 자료](#참고-자료)
+
+-->
 
 
