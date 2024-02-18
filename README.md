@@ -55,9 +55,11 @@
 
 ## :mag_right: 구현 화면
 * Read : list 표시<br>
+
 ![image](https://github.com/Eumnya415/PRJ_02_DB/assets/145963611/d38eedb4-ea95-4317-bd8f-16aaede21840)
 
 * Create : 주소록 추가하기<br>
+
 ![image](https://github.com/Eumnya415/PRJ_02_DB/assets/145963611/98ae5f13-ba4a-4249-99aa-7e1aadde2269)
 
 ## :mag_right: 회고
